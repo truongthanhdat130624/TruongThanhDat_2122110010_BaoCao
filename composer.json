@@ -1,0 +1,23 @@
+{
+    "name": "trongthanhdat/shop-thoi-trang",
+    "description": "xay dung website bán hàng - Trương Thành Đạt",
+    "authors":[
+        {
+            "name": "Trương Thanh Đạt",
+        "email":"0971885850a@gmial.com"
+        }
+        
+    ],
+    "autoload": {
+        "psr-4": {"App\\":"app/"},
+        "files": [
+            "./app/Route.php",
+            "./config/database.php"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^10.26",
+        "illuminate/events": "^10.26"
+        
+    }
+}
